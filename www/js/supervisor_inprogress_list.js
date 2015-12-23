@@ -1349,7 +1349,7 @@ return false;
 
 if(qualification_id == '81' || qualification_id == '82' || qualification_id == '83'  ){
       if(employgap_veria !== undefined){
-        alert('employgap_veria sessionStorage');
+       // alert('employgap_veria sessionStorage');
   if(log_inpro_objg !== undefined && supervisor_final_commanda !== undefined){
 sessionStorage.setItem("supervisor_activity_log_array",JSON.stringify(log_inpro_objg));
 sessionStorage.setItem("employgap_veria",JSON.stringify(employgap_veria));
